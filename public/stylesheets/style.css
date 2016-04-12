@@ -1,7 +1,13 @@
 html{
-  font-family: helvetica;
-  background-color:#002255;
-  color:#A7A9AC;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color:#333;
+    color:white;
+    font-weight:normal;
+    width:95%;
+}
+
+h1 {
+    font-weight:normal;
 }
 
 ul {
@@ -9,23 +15,56 @@ ul {
     padding: 0;
     margin: 0;
 }
+
 li {
     float: left;
-    border: 1px solid #000;
-    border-bottom-width: 0;
-    margin: 3px 3px 0px 3px;
-    padding: 5px 5px 0px 5px;
-   background-color:#A7A9AC;
-  color:#002255;
+    margin: 0;
+    padding: 16px;
+    text-align: center;
 }
+
+#nav{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    margin: auto;
+    border-radius: 7px 7px 1px 1px;
+}
+
+.active{
+    background-color: #333;
+}
+
+.tab {
+    float: left;
+    display: block;
+    text-align: center;
+    text-size: 28px;
+    margin: 0px;
+    padding: 32px 0px;
+    width: 50%;
+}
+
+.tab:not(.active){
+    background-color: #009;
+    border-radius: 7px 7px 1px 1px;
+}
+
+.tab:hover:not(.active){
+    background-color: #006;
+    border-radius: 7px 7px 0px 0px;
+}
+
 #mainView {
-    border: 1px solid black;
-	clear: both;
-	padding: 0 1em;
+    clear: both;
+    padding: 0 1em;
 }
+
 .Search{
-  padding-bottom:10px;
+    padding-bottom:10px;
 }
+
 .submit{
-  padding-bottom:10px;
+    padding-bottom:10px;
 }
